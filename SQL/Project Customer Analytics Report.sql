@@ -95,4 +95,3 @@ SELECT 1 AS quarter, (COUNT (DISTINCT customerID) / 25) * 100 AS Q2 FROM orders_
 (
 SELECT DISTINCT customerID FROM orders_2
 );
-#test
